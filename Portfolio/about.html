@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>About — Hemavarna G T</title>
+<link rel="stylesheet" href="css/style.css">
+
+<style>
+/* About Page — Same layout as Home, only swapped positions */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 10%;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.about-text {
+  flex: 1;
+  text-align: left;
+  background-color: #ffffff;
+    padding: 20px 25px;
+    border-left: 6px solid #FF6F91;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+    transition: box-shadow 0.3s ease;
+}
+
+ .brand {
+      font-size: 22px;
+      font-weight: 600;
+      color: #FF6F91;
+    }
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  background: #ffffff;
+  padding: 2rem;
+  
+}
+
+
+.about-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+
+}
+</style>
+</head>
+
+<body>
+<!-- Header -->
+<nav class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="index.html">Hemavarna G T</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="association.html">Association</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- About Section -->
+<section class="about-container">
+  <div class="about-text">
+    <p>
+      Hi, I’m <strong>Hemavarna Krishnan</strong>, a passionate <strong>B.Sc Computer Science</strong> student with a keen
+      interest in web development. I enjoy learning new technologies, solving problems, and applying my skills in real-world projects. 
+      Apart from coding, I love organizing events and contributing to my college community.
+    </p>
+  </div>
+
+  <div class="about-image">
+    <img src="aboutpho2.jpg" alt="Hemavarna Krish">
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© 2025 Hemavarna G T – All Rights Reserved</p>
+  </div>
+</footer>
+</body>
+</html>
